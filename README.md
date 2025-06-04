@@ -41,7 +41,7 @@ FairFrame/
 
 ## 🟢 Beginner
 
-Explore loan_data.csv
+Explore `loan_data.csv`
 
 Identify disparities in loan scoring and approval rates
 
@@ -49,7 +49,7 @@ Use descriptive stats and basic visualizations
 
 ## 🟡 Intermediate
 
-Add analysis of promotion_data.csv
+Add analysis of `promotion_data.csv`
 
 Compare promotion distributions by group
 
@@ -57,7 +57,7 @@ Evaluate bias across two systems
 
 ## 🔴 Advanced
 
-Incorporate chatbot_output.csv
+Incorporate `chatbot_output.csv`
 
 Score LLM-based chatbot replies for bias
 
