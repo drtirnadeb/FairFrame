@@ -56,6 +56,11 @@ git commit -m "Merge README from remote"
 git push -u origin main
 ```
 
+## 🧹 Cleanup
+Moved CSVs into appropriate /data/ subfolders for each level
+
+Removed root-level CSVs after verification
+
 
 
 
