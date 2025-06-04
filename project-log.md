@@ -41,6 +41,27 @@ Created synthetic datasets using script:
 
 `chatbot_output.csv`
 
+* Script location:
+
+`data_generation/banking-challenge-data-generation.py`
+
+* Injected bias by lowering loan scores for Muslim/SC-ST applicants and modifying promotion exposure by caste/income.
+
+## Git Pushes
+Merged local main with remote main after initial push error:
+
+```
+git pull origin main --allow-unrelated-histories
+git commit -m "Merge README from remote"
+git push -u origin main
+```
+
+
+
+
+
+
+
 
 
 
