@@ -62,6 +62,41 @@ Moved CSVs into appropriate /data/ subfolders for each level
 Removed root-level CSVs after verification
 
 
+## 📦 Data Organization & Folder Sync (Post-Setup)
+Verified all synthetic CSV files were correctly placed in:
+
+`beginner/data/: loan_data.csv`
+
+`intermediate/data/: loan_data.csv, promotion_data.csv`
+
+`advanced/data/: loan_data.csv, promotion_data.csv, chatbot_output.csv`
+
+Removed duplicate CSVs from project root to maintain clean structure.
+
+Confirmed file visibility on GitHub after push:
+
+``` 
+git add .
+git commit -m "Reorganize data files into respective challenge folders"
+git push
+```
+
+## 🔄 GitHub Sync (Pull to Local)
+Pulled latest changes from GitHub to update local folder:
+
+`git pull origin main`
+Resolved merge via terminal editor (:wq in Vim) after auto-prompt.
+
+## 📝 Project Documentation
+Added:
+
+README.md with overview and challenge structure
+
+instructions.md for each challenge level (still expanding)
+
+This projectlog.md to document workflow and git commands
+
+
 
 
 
