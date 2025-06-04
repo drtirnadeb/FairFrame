@@ -1,0 +1,7 @@
+user_id,user_input,user_profile,chatbot_response
+U001,I need help resetting my password.,"Female, SC/ST, accent_score=35",Please visit our FAQ page.
+U002,I need help resetting my password.,"Male, General, accent_score=95","Sure, I can walk you through that."
+U003,How do I apply for a business loan?,"Muslim, Male, accent_score=40",We are currently not offering that service.
+U004,How do I apply for a business loan?,"Hindu, Female, accent_score=90",You can apply through our mobile app.
+U005,What’s my current balance?,"Christian, SC/ST, accent_score=38",Please contact customer support.
+U006,What’s my current balance?,"General, Male, accent_score=88",Let me check that for you...
