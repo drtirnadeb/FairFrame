@@ -33,7 +33,7 @@ FairFrame/
 │   └── instructions.md
 ├── data_generation/
 │   └── banking-challenge-data-generation.py
-├── projectlog.md
+├── project-log.md
 
 ```
 
