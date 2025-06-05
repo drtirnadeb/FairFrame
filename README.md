@@ -52,6 +52,10 @@ FairFrame/
 
 ---
 
+🔗 Quick access: [Beginner](#beginner-level) | [Intermediate](#intermediate-level) | [Advanced](#advanced-level)
+
+---
+
 ## 🟢 Beginner Level
 
 **Focus**: Understand group disparities through exploratory data analysis.
@@ -129,3 +133,7 @@ All data and scenarios are fictional and created solely for educational purposes
 ---
 
 📝 Note: The dataset also contains queries labeled as `hr_help`, which correspond to a fictional HR chatbot. These are excluded from fairness evaluation in this challenge, as they do not influence loan, promotion, or customer service decisions. However, advanced participants are welcome to explore them optionally.
+
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
+
