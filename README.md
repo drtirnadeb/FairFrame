@@ -42,6 +42,16 @@ FairFrame/
 
 ---
 
+> 🧩 **Note:** Each challenge level builds upon the previous one.  
+> Participants at the Intermediate level are expected to have completed the Beginner task.  
+> Advanced-level participants are expected to complete both Beginner and Intermediate tasks.
+
+> 💡 **Notebooks Provided:**  
+> This repository includes example notebooks for each level to illustrate possible approaches.  
+> These are not part of the official challenge materials and may or may not be shared with participants during actual deployment.
+
+---
+
 ## 🟢 Beginner Level
 
 **Focus**: Understand group disparities through exploratory data analysis.
