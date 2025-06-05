@@ -1,5 +1,5 @@
 
-# ✅ Grading System for Bias Bounty Challenge
+# ✅ Grading System for FairFrame Challenge
 
 This section outlines how participant submissions can be evaluated for each challenge level, based on a structured rubric. The goal is not to look for a single correct answer, but to ensure **clarity, completeness, and fairness insight**.
 
