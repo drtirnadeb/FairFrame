@@ -37,7 +37,7 @@ FairFrame/
 ├── data_generation/         # Synthetic data generation script
 │   └── banking-challenge-data-generation.py
 ├── README.md
-├── projectlog.md            # (Optional) Contributor project log and Git workflow
+├── project-log.md            # (Optional) Contributor project log and Git workflow
 ```
 
 ---
