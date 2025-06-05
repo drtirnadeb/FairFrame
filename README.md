@@ -34,6 +34,7 @@ FairFrame/
 ├── data_generation/
 │   └── banking-challenge-data-generation.py
 ├── project-log.md
+├── grading-rubic.md
 
 ```
 
