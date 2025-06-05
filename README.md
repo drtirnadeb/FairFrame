@@ -117,3 +117,5 @@ Created by **Tirna Deb** for a fairness-in-AI design challenge.
 All data and scenarios are fictional and created solely for educational purposes.
 
 ---
+
+📝 Note: The dataset also contains queries labeled as `hr_help`, which correspond to a fictional HR chatbot. These are excluded from fairness evaluation in this challenge, as they do not influence loan, promotion, or customer service decisions. However, advanced participants are welcome to explore them optionally.
