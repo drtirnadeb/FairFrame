@@ -94,8 +94,6 @@ README.md with overview and challenge structure
 
 instructions.md for each challenge level (still expanding)
 
-This projectlog.md to document workflow and git commands
-
 
 ## 📘 Notebook & Instructions Sync 
 
