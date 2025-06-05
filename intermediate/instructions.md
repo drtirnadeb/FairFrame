@@ -6,7 +6,7 @@ In this level, your goal is to explore **group-level disparities** in both **loa
 
 ### 📘 About the Notebook
 
-We have included an example Jupyter notebook (`loan_fairness_intermediate.ipynb`) to help you get started.  
+We have included an example Jupyter notebook (`intermediate_fairness_analysis.ipynb`) to help you get started.  
 Use it as a **template** — feel free to build on it, expand the analysis, and apply the same techniques to the promotion dataset.
 
 ---
