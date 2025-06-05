@@ -119,6 +119,47 @@ This projectlog.md to document workflow and git commands
   git push origin main
   ```
 
+### 🔴 Advanced Challenge & Evaluation Finalization
+
+✅ **Added Advanced Notebook Example**  
+- `advanced/Advanced_Fairness_Analysis.ipynb`  
+  Demonstrates chatbot response bias audit using both rule-based and LLM-based helpfulness scoring. Built on top of previous modeling and fairness analysis work.
+
+✅ **Added Advanced Instructions**  
+- `advanced/instructions.md`  
+  Details the full scope of the advanced challenge, including:
+  - Using LLMs to score chatbot response helpfulness
+  - Group-wise fairness comparison based on demographic attributes
+
+✅ **Created Grading Rubric**  
+- `grading_rubric.md`  
+  Structured rubric for evaluating participant submissions across all challenge levels (Beginner, Intermediate, Advanced).  
+  Includes:
+  - Scoring guide (1–5 scale)
+  - Criteria per task level
+  - Optional LLM-based grading prompts
+
+✅ **Final GitHub Sync and README Update**  
+- Pulled latest changes:
+  ```
+  git pull origin main
+  git add advanced/Advanced_Fairness_Analysis.ipynb advanced/instructions.md grading_rubric.md
+  git commit -m "Add advanced notebook, instructions, and grading rubric"
+  git push origin main
+  ```
+
+  
+✅ **Updated README.md:**
+
+Included all challenge levels (Beginner → Advanced)
+
+Linked to the grading rubric
+
+Highlighted LLM-based chatbot fairness audit
+
+
+
+
 
 
 
