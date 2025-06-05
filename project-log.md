@@ -97,6 +97,30 @@ instructions.md for each challenge level (still expanding)
 This projectlog.md to document workflow and git commands
 
 
+## 📘 Notebook & Instructions Sync 
+
+## ✅ Added Jupyter notebooks to each challenge level:
+- `beginner/loan_bias_eda.ipynb`: Visual EDA and caste-level approval analysis
+- `intermediate/intermediate_fairness_analysis.ipynb`: Model comparison with and without protected attributes + fairness metric templates
+
+## ✅ Added instruction files:
+- `beginner/instructions.md`: Outlines protected vs. neutral attributes and suggested visualizations
+- `intermediate/instructions.md`: Structured walkthrough of modeling, metrics, and promotion task
+
+## 🌀 GitHub Sync:
+- Pulled latest remote changes (instructions + structure) to local:  
+  `git pull origin main`
+- Moved notebook to correct folder:  
+  `mv intermediate_fairness_analysis.ipynb intermediate/`
+- Committed and pushed updates:  
+  ```
+  git add intermediate/intermediate_fairness_analysis.ipynb beginner/loan_bias_eda.ipynb
+  git commit -m "Add beginner and intermediate level notebooks"
+  git push origin main
+  ```
+
+
+
 
 
 
