@@ -1,74 +1,119 @@
-# FairFrame
+# ⚖️ FairFrame
 
-FairFrame is a modular fairness auditing challenge inspired by real-world issues in financial services and machine learning systems. It is structured in three levels—Beginner, Intermediate, and Advanced—to simulate bias detection across AI components used by a fictional fintech company.
+**FairFrame** is a modular fairness auditing challenge inspired by real-world use cases in financial services. It is designed to test your ability to detect, quantify, and mitigate algorithmic bias across different AI components. The challenge is organized into three progressive levels—**Beginner**, **Intermediate**, and **Advanced**—each targeting a different part of a fictional fintech company’s AI stack.
 
-## 🧠 Challenge Scenario
+---
 
-Banking Access, a fictional company, uses AI/ML systems across:
+## 🧠 Scenario: Auditing Banking Access
 
-Loan Risk Estimator (credit scoring)
+**Banking Access** is a fictional fintech organization that uses machine learning across:
 
-Account Promotion Recommender (targeted offers)
+- 🏦 **Loan Risk Estimator** — predicts loan approval based on user attributes
+- 🎯 **Account Promotion Recommender** — targets users with financial product offers
+- 💬 **Customer Service Chatbot** — responds to user queries using an LLM
 
-Customer Service Chatbot (LLM-based)
+As a fairness auditor, your task is to explore whether these systems behave differently based on **protected attributes** like gender, caste, religion, and accent.
 
-Participants are invited to audit these systems step by step for potential biases across protected attributes such as gender, caste, religion, and accent.
+---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
-```
+```plaintext
 FairFrame/
-├── README.md
-├── beginner/
+├── beginner/                 # Beginner-level task: EDA and fairness gaps
 │   ├── data/loan_data.csv
+│   ├── loan_bias_eda.ipynb
 │   └── instructions.md
-├── intermediate/
+├── intermediate/            # Intermediate-level task: model fairness analysis
 │   ├── data/loan_data.csv
 │   ├── data/promotion_data.csv
+│   ├── intermediate_fairness_analysis.ipynb
 │   └── instructions.md
-├── advanced/
-│   ├── data/loan_data.csv
-│   ├── data/promotion_data.csv
+├── advanced/                # Advanced-level task: chatbot bias and LLM scoring
 │   ├── data/chatbot_output.csv
+│   ├── Advanced_Fairness_Analysis.ipynb
 │   └── instructions.md
-├── data_generation/
+├── grading_rubric.md        # Grading criteria for each level
+├── data_generation/         # Synthetic data generation script
 │   └── banking-challenge-data-generation.py
-├── project-log.md
-├── grading-rubic.md
-
+├── README.md
+├── projectlog.md            # (Optional) Contributor project log and Git workflow
 ```
 
-## 🔹 Levels
+---
 
-## 🟢 Beginner
+## 🟢 Beginner Level
 
-Explore `loan_data.csv`
+**Focus**: Understand group disparities through exploratory data analysis.
 
-Identify disparities in loan scoring and approval rates
+🔑 Tasks:
+- Analyze `loan_data.csv` for approval and score differences by gender, caste, religion.
+- Use descriptive statistics, bar charts, boxplots, etc.
+- Identify patterns or potential biases.
 
-Use descriptive stats and basic visualizations
+📄 [Beginner Instructions](beginner/instructions.md)  
+📊 [Beginner Dataset](beginner/data/loan_data.csv)  
+🧪 [Beginner Notebook](beginner/loan_bias_eda.ipynb)
 
-## 🟡 Intermediate
+---
 
-Add analysis of `promotion_data.csv`
+## 🟡 Intermediate Level
 
-Compare promotion distributions by group
+**Focus**: Train machine learning models and assess fairness with and without protected attributes.
 
-Evaluate bias across two systems
+🔑 Tasks:
+- Train two models: one **with** and one **without** sensitive features.
+- Evaluate fairness metrics: **True Positive Rate (TPR), Demographic Parity, Equal Opportunity**, etc.
+- Use both `loan_data.csv` and `promotion_data.csv`.
 
-## 🔴 Advanced
+📄 [Intermediate Instructions](intermediate/instructions.md)  
+📊 [Intermediate Datasets](intermediate/data/)  
+🧪 [Intermediate Notebook](intermediate/intermediate_fairness_analysis.ipynb)
 
-Incorporate `chatbot_output.csv`
+---
 
-Score LLM-based chatbot replies for bias
+## 🔴 Advanced Level
 
-Consider fairness trade-offs across multiple systems
+**Focus**: Use Large Language Models to audit chatbot response fairness.
 
-## 📊 Dataset Notes
+🔑 Tasks:
+- Classify chatbot responses (`chatbot_output.csv`) as *Helpful* or *Generic*
+- Use LLM (e.g., Mistral-7B) to rate helpfulness on a scale of 1–5
+- Compare helpfulness across groups (caste, gender, etc.)
+- Discuss disparities and propose mitigation strategies
 
-All datasets are synthetic and were generated using the script in data_generation/. Biases were manually injected for gender, caste, and religion in scores and exposure.
+📄 [Advanced Instructions](advanced/instructions.md)  
+📊 [Advanced Dataset](advanced/data/chatbot_output.csv)  
+🧪 [Advanced Notebook](advanced/Advanced_Fairness_Analysis.ipynb)
+
+---
+
+## 🧪 Synthetic Data Generation
+
+All datasets in this repository are **synthetic** and were generated using controlled bias injection logic via:
+📜 [`banking-challenge-data-generation.py`](data_generation/banking-challenge-data-generation.py)
+
+Bias was intentionally introduced across **gender**, **caste**, **religion**, and **accent** fields to simulate real-world disparities in prediction outcomes and user experience.
+
+---
+
+## 🧑‍⚖️ Grading and Evaluation
+
+Each level has a corresponding evaluation rubric with qualitative criteria:
+
+📋 [Grading Rubric](grading_rubric.md)
+
+Each submission is assessed based on:
+- Correctness and completeness
+- Fairness insight and reasoning
+- Quality of visualization and communication
+- (Advanced) Use of LLMs for response rating and reflection on ethical trade-offs
+
+---
 
 ## ✨ Attribution
 
-Created by Tirna Deb for a fairness-in-AI design challenge. This is a fictional problem not associated with any real entity.
+Created by **Tirna Deb** for a fairness-in-AI design challenge.  
+All data and scenarios are fictional and created solely for educational purposes.
 
+---
