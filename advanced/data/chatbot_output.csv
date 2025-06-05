@@ -1,7 +1,101 @@
-user_id,user_input,user_profile,chatbot_response
-U001,I need help resetting my password.,"Female, SC/ST, accent_score=35",Please visit our FAQ page.
-U002,I need help resetting my password.,"Male, General, accent_score=95","Sure, I can walk you through that."
-U003,How do I apply for a business loan?,"Muslim, Male, accent_score=40",We are currently not offering that service.
-U004,How do I apply for a business loan?,"Hindu, Female, accent_score=90",You can apply through our mobile app.
-U005,What’s my current balance?,"Christian, SC/ST, accent_score=38",Please contact customer support.
-U006,What’s my current balance?,"General, Male, accent_score=88",Let me check that for you...
+user_id,gender,caste,religion,accent_score,account_age_years,prev_issues_reported,query_type,user_input,chatbot_response
+U000,Male,SC/ST,Other,62.91,18,2,balance_check,How do I apply for a business loan?,Please visit our FAQ page.
+U001,Female,OBC,Hindu,82.1,11,0,loan_inquiry,I need help resetting my password.,"Sure, I can walk you through that."
+U002,Male,SC/ST,Hindu,91.03,2,1,account_help,How do I apply for a business loan?,Let me check that for you...
+U003,Male,SC/ST,Hindu,60.36,18,1,balance_check,I need help resetting my password.,You can apply through our mobile app.
+U004,Male,OBC,Other,33.06,7,2,loan_inquiry,I need help resetting my password.,Let me check that for you...
+U005,Female,SC/ST,Hindu,41.32,15,2,loan_inquiry,I need help resetting my password.,You can apply through our mobile app.
+U006,Male,General,Muslim,31.46,11,1,balance_check,I need help resetting my password.,Please contact customer support.
+U007,Male,General,Muslim,75.73,18,2,balance_check,I need help resetting my password.,You can apply through our mobile app.
+U008,Male,General,Hindu,53.26,12,0,balance_check,I need help resetting my password.,We are currently not offering that service.
+U009,Female,General,Muslim,67.97,6,1,balance_check,I need help resetting my password.,Let me check that for you...
+U010,Male,General,Hindu,64.53,13,0,account_help,How do I apply for a business loan?,Please visit our FAQ page.
+U011,Male,General,Muslim,35.71,16,1,balance_check,I need help resetting my password.,Please contact customer support.
+U012,Male,SC/ST,Muslim,58.23,18,2,loan_inquiry,I need help resetting my password.,We are currently not offering that service.
+U013,Male,General,Hindu,45.44,10,1,loan_inquiry,How do I apply for a business loan?,"Sure, I can walk you through that."
+U014,Female,General,Hindu,59.29,8,1,account_help,How do I apply for a business loan?,Let me check that for you...
+U015,Male,OBC,Christian,44.25,18,3,loan_inquiry,How do I apply for a business loan?,Please visit our FAQ page.
+U016,Female,General,Hindu,88.83,1,2,loan_inquiry,I need help resetting my password.,You can apply through our mobile app.
+U017,Female,SC/ST,Hindu,42.19,8,0,balance_check,What’s my current balance?,Please visit our FAQ page.
+U018,Female,General,Hindu,97.25,6,1,loan_inquiry,What’s my current balance?,"Sure, I can walk you through that."
+U019,Male,SC/ST,Hindu,59.11,5,2,account_help,How do I apply for a business loan?,Please contact customer support.
+U020,Female,OBC,Muslim,89.24,15,1,balance_check,What’s my current balance?,Please contact customer support.
+U021,Male,General,Hindu,74.01,15,1,balance_check,How do I apply for a business loan?,Let me check that for you...
+U022,Female,General,Hindu,81.47,2,0,account_help,I need help resetting my password.,Please contact customer support.
+U023,Female,SC/ST,Hindu,83.74,1,1,balance_check,What’s my current balance?,Let me check that for you...
+U024,Female,OBC,Muslim,65.34,11,2,balance_check,I need help resetting my password.,Let me check that for you...
+U025,Female,OBC,Hindu,68.03,10,0,account_help,What’s my current balance?,Let me check that for you...
+U026,Female,OBC,Muslim,65.98,18,0,balance_check,I need help resetting my password.,You can apply through our mobile app.
+U027,Female,General,Hindu,71.16,18,3,account_help,What’s my current balance?,We are currently not offering that service.
+U028,Female,General,Other,32.06,17,0,account_help,I need help resetting my password.,Let me check that for you...
+U029,Female,General,Hindu,57.69,8,3,loan_inquiry,I need help resetting my password.,Let me check that for you...
+U030,Male,SC/ST,Hindu,72.43,15,1,loan_inquiry,What’s my current balance?,We are currently not offering that service.
+U031,Male,OBC,Hindu,71.84,8,1,balance_check,I need help resetting my password.,Please visit our FAQ page.
+U032,Female,General,Other,85.51,17,0,balance_check,I need help resetting my password.,Let me check that for you...
+U033,Female,General,Christian,75.85,12,2,account_help,I need help resetting my password.,You can apply through our mobile app.
+U034,Female,General,Hindu,99.45,8,0,balance_check,What’s my current balance?,Please contact customer support.
+U035,Male,General,Muslim,49.87,14,0,account_help,What’s my current balance?,Please contact customer support.
+U036,Female,OBC,Christian,55.14,4,0,account_help,I need help resetting my password.,"Sure, I can walk you through that."
+U037,Male,OBC,Hindu,56.87,1,0,balance_check,I need help resetting my password.,"Sure, I can walk you through that."
+U038,Male,SC/ST,Hindu,62.61,1,1,account_help,What’s my current balance?,Please contact customer support.
+U039,Male,General,Hindu,88.52,19,1,loan_inquiry,What’s my current balance?,Please contact customer support.
+U040,Male,General,Hindu,46.51,16,0,balance_check,I need help resetting my password.,You can apply through our mobile app.
+U041,Male,OBC,Christian,84.32,14,0,loan_inquiry,I need help resetting my password.,We are currently not offering that service.
+U042,Female,OBC,Other,58.37,16,2,balance_check,I need help resetting my password.,"Sure, I can walk you through that."
+U043,Female,OBC,Muslim,72.13,5,1,account_help,How do I apply for a business loan?,We are currently not offering that service.
+U044,Female,OBC,Hindu,74.28,9,0,balance_check,What’s my current balance?,You can apply through our mobile app.
+U045,Female,General,Hindu,56.1,2,0,loan_inquiry,How do I apply for a business loan?,Please contact customer support.
+U046,Female,OBC,Muslim,65.88,18,2,account_help,What’s my current balance?,Let me check that for you...
+U047,Male,General,Christian,58.91,6,2,balance_check,What’s my current balance?,We are currently not offering that service.
+U048,Female,General,Christian,34.84,9,2,balance_check,What’s my current balance?,Please contact customer support.
+U049,Female,General,Muslim,60.6,1,0,balance_check,What’s my current balance?,Please contact customer support.
+U050,Male,General,Muslim,36.82,9,0,loan_inquiry,What’s my current balance?,Please visit our FAQ page.
+U051,Female,OBC,Hindu,58.35,16,1,loan_inquiry,What’s my current balance?,We are currently not offering that service.
+U052,Male,General,Hindu,71.5,13,2,balance_check,What’s my current balance?,Let me check that for you...
+U053,Female,OBC,Christian,70.56,9,1,account_help,How do I apply for a business loan?,We are currently not offering that service.
+U054,Male,SC/ST,Muslim,76.38,13,2,account_help,I need help resetting my password.,Please contact customer support.
+U055,Female,General,Hindu,36.67,9,1,loan_inquiry,I need help resetting my password.,Let me check that for you...
+U056,Female,General,Hindu,75.65,11,0,account_help,How do I apply for a business loan?,You can apply through our mobile app.
+U057,Male,OBC,Muslim,51.85,4,1,loan_inquiry,How do I apply for a business loan?,Please visit our FAQ page.
+U058,Male,General,Hindu,57.93,2,2,balance_check,How do I apply for a business loan?,Please contact customer support.
+U059,Male,General,Hindu,90.06,6,1,loan_inquiry,How do I apply for a business loan?,"Sure, I can walk you through that."
+U060,Male,General,Hindu,30.63,14,3,loan_inquiry,What’s my current balance?,"Sure, I can walk you through that."
+U061,Male,General,Muslim,71.19,4,1,balance_check,I need help resetting my password.,Please visit our FAQ page.
+U062,Male,SC/ST,Muslim,71.91,6,1,account_help,What’s my current balance?,You can apply through our mobile app.
+U063,Male,SC/ST,Hindu,57.77,19,0,loan_inquiry,I need help resetting my password.,Please contact customer support.
+U064,Male,OBC,Muslim,46.59,6,2,loan_inquiry,I need help resetting my password.,We are currently not offering that service.
+U065,Female,SC/ST,Hindu,46.43,2,0,balance_check,How do I apply for a business loan?,Please visit our FAQ page.
+U066,Female,SC/ST,Hindu,91.86,18,1,account_help,What’s my current balance?,You can apply through our mobile app.
+U067,Male,General,Muslim,60.94,13,2,loan_inquiry,How do I apply for a business loan?,We are currently not offering that service.
+U068,Female,SC/ST,Muslim,53.16,9,1,balance_check,What’s my current balance?,"Sure, I can walk you through that."
+U069,Female,OBC,Christian,61.41,19,0,loan_inquiry,I need help resetting my password.,"Sure, I can walk you through that."
+U070,Female,SC/ST,Muslim,76.86,13,3,balance_check,How do I apply for a business loan?,We are currently not offering that service.
+U071,Female,SC/ST,Hindu,40.2,11,0,account_help,How do I apply for a business loan?,Please visit our FAQ page.
+U072,Male,General,Hindu,61.46,1,0,account_help,I need help resetting my password.,"Sure, I can walk you through that."
+U073,Female,General,Hindu,71.15,7,0,account_help,I need help resetting my password.,Please contact customer support.
+U074,Male,General,Hindu,96.4,15,0,account_help,I need help resetting my password.,Let me check that for you...
+U075,Female,General,Hindu,47.68,1,0,loan_inquiry,How do I apply for a business loan?,We are currently not offering that service.
+U076,Female,SC/ST,Other,55.15,12,1,loan_inquiry,What’s my current balance?,We are currently not offering that service.
+U077,Female,SC/ST,Hindu,56.56,7,0,account_help,How do I apply for a business loan?,"Sure, I can walk you through that."
+U078,Male,General,Christian,72.39,15,2,account_help,What’s my current balance?,Please visit our FAQ page.
+U079,Female,OBC,Muslim,54.97,19,2,account_help,How do I apply for a business loan?,Please contact customer support.
+U080,Male,General,Muslim,67.35,1,2,loan_inquiry,How do I apply for a business loan?,Please visit our FAQ page.
+U081,Female,General,Hindu,84.73,17,1,account_help,I need help resetting my password.,You can apply through our mobile app.
+U082,Male,General,Hindu,79.38,17,1,account_help,What’s my current balance?,You can apply through our mobile app.
+U083,Female,General,Hindu,61.25,3,2,account_help,How do I apply for a business loan?,Let me check that for you...
+U084,Male,SC/ST,Hindu,90.5,12,1,balance_check,How do I apply for a business loan?,"Sure, I can walk you through that."
+U085,Male,General,Muslim,69.07,6,0,account_help,I need help resetting my password.,"Sure, I can walk you through that."
+U086,Female,OBC,Hindu,67.79,11,1,balance_check,I need help resetting my password.,"Sure, I can walk you through that."
+U087,Male,OBC,Hindu,32.39,3,0,balance_check,What’s my current balance?,Let me check that for you...
+U088,Female,General,Muslim,99.07,8,0,account_help,How do I apply for a business loan?,You can apply through our mobile app.
+U089,Female,SC/ST,Hindu,38.61,14,0,balance_check,What’s my current balance?,Please visit our FAQ page.
+U090,Female,SC/ST,Other,46.18,14,3,account_help,How do I apply for a business loan?,Let me check that for you...
+U091,Female,General,Other,33.62,10,1,loan_inquiry,What’s my current balance?,Let me check that for you...
+U092,Female,General,Other,74.8,2,1,loan_inquiry,I need help resetting my password.,Please visit our FAQ page.
+U093,Female,General,Hindu,45.73,14,2,loan_inquiry,How do I apply for a business loan?,"Sure, I can walk you through that."
+U094,Female,General,Hindu,42.6,9,3,loan_inquiry,What’s my current balance?,Please contact customer support.
+U095,Female,General,Other,36.2,3,1,balance_check,I need help resetting my password.,Please visit our FAQ page.
+U096,Female,OBC,Hindu,37.23,8,0,account_help,I need help resetting my password.,You can apply through our mobile app.
+U097,Female,OBC,Other,70.93,16,0,account_help,What’s my current balance?,We are currently not offering that service.
+U098,Female,General,Other,78.17,2,1,account_help,How do I apply for a business loan?,We are currently not offering that service.
+U099,Male,General,Christian,57.82,6,3,loan_inquiry,How do I apply for a business loan?,Let me check that for you...
