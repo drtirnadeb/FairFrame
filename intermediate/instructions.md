@@ -1,4 +1,4 @@
-## 🧪 Intermediate Challenge Instructions
+## 🟡 Intermediate Challenge Instructions
 
 In this level, your goal is to explore **group-level disparities** in both **loan approval** and **promotion exposure**, combining EDA and fairness-aware ML modeling.
 
