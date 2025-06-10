@@ -15,7 +15,7 @@ This section outlines how participant submissions can be evaluated for each chal
 | 2     | Minimal EDA (e.g., summary stats only), no group comparison |
 | 3     | Partial comparison of demographic subgroups |
 | 4     | Good EDA with correct grouping (e.g., caste/gender), some insights |
-| 5     | Excellent EDA, identify disparities using metrics like Disparate Impact Ratio, key disparities identified and clearly communicated |
+| 5     | Excellent EDA, identify disparities using metrics like Disparate Impact Ratio and communicated |
 
 **LLM Prompt Example**:
 > "Rate the following analysis on how well it identifies fairness issues in chatbot responses across demographics, on a scale of 1 (poor) to 5 (excellent)."
