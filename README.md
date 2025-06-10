@@ -132,14 +132,14 @@ All data and scenarios are fictional and created solely for educational purposes
 
 ---
 
-📝 **Note:** The dataset also contains queries labeled as `hr_help`, which correspond to a fictional HR chatbot. These are excluded from fairness evaluation in this challenge, as they do not influence loan, promotion, or customer service decisions. However, advanced participants are welcome to explore them optionally.
-
 📌 **Assumptions for Example Notebooks**
 - Example datasets are **anonymized and synthetic**, created to prototype the challenge design.
 - Feedback data (e.g., thumbs up/down) is simulated and partial.
 - Protected attributes (caste, religion, gender, accent) are included to demonstrate group fairness metrics.
 
-⚠️ **Note:** In a real deployment with *Banking Access*, these placeholders would be replaced with actual anonymized data from their systems.
+⚠️ **Note:** 
+* In a real deployment with *Banking Access*, these placeholders would be replaced with actual anonymized data from their systems.
+* The dataset also contains queries labeled as `hr_help`, which correspond to a fictional HR chatbot. These are excluded from fairness evaluation in this challenge, as they do not influence loan, promotion, or customer service decisions. However, advanced participants are welcome to explore them optionally.
 
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
