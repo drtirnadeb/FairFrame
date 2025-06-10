@@ -1,4 +1,4 @@
-## 📘 Beginner Level – Instructions
+## 🟢 Beginner Level – Instructions
 
 ### 🎯 Objective
 Your task is to perform **Exploratory Data Analysis (EDA)** on a loan risk estimation dataset and identify potential **group-level disparities** in loan approvals.
