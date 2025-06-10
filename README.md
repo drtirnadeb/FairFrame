@@ -20,7 +20,7 @@ As a fairness auditor, your task is to explore whether these systems behave diff
 
 Below is a quick visual demo of the FairFrame challenge structure:
 
-![FairFrame Demo](demo/FairFrame_demo.gif)
+![FairFrame Demo](FairFrame_demo.gif)
 
 ---
 
