@@ -32,7 +32,7 @@ This section outlines how participant submissions can be evaluated for each chal
 | 2     | Model trained but fairness evaluation missing |
 | 3     | Fairness metrics partially implemented, weak comparison |
 | 4     | Two models trained, key metrics computed (e.g., TPR, Demographic Parity) |
-| 5     | Strong metrics, clear comparison, fairness gap discussed and visualized |
+| 5     | Strong metrics, clear comparison, fairness gap discussed and visualized, thoughtful ML modeling |
 
 **LLM Prompt Example**:
 > "Rate this submission on whether it correctly implements fairness metrics and compares models in terms of fairness."
